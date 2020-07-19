@@ -14,7 +14,7 @@ class App extends React.Component {
         <Router>
           <Switch>
             {/* -----++++++----- ROUTES -----++++++----- */}
-            <Route exact path="/" component={Navbar} />
+            <Route exact path="/ResumeApp" component={Navbar} />
             <Route exact path="/thank-you" component={Thankyou} />
             <Route exact path="/profile-exists" component={ProfileAlreadyExists} />
           </Switch>
